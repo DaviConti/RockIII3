@@ -1,0 +1,23 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 26/08/2024
+Var
+// Seção de Declarações das variáveis 
+numeroUsuario, numeroAleatorio: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Digite um número de 0 a 10: ")
+leia(numeroUsuario)
+
+repita
+numeroAleatorio <- randi(10)
+ate (numeroAleatorio = numeroUsuario)
+
+escreval("Número aleatório gerado igual ao número informado pelo usuário: ", numeroAleatorio)
+
+
+Fimalgoritmo
